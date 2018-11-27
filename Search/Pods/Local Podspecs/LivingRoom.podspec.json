@@ -1,0 +1,71 @@
+{
+  "name": "LivingRoom",
+  "summary": "斗鱼 直播间",
+  "version": "0.0.1",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "yangshangda": "372154465@qq.com"
+  },
+  "homepage": "https://github.com/dearmiku/MN_Live",
+  "source": {
+    "git": "",
+    "tag": "0.0.1"
+  },
+  "source_files": [
+    "source",
+    "LivingRoom/LivingRoom/source/**/*.*"
+  ],
+  "vendored_frameworks": "LivingRoom/LivingRoom/framework/IJK/IJKMediaFramework.framework",
+  "resources": "LivingRoom/LivingRoom/LivingRoom.bundle",
+  "swift_version": "4.2",
+  "platforms": {
+    "ios": "8.0"
+  },
+  "frameworks": [
+    "Foundation",
+    "UIKit",
+    "VideoToolbox",
+    "QuartzCore",
+    "OpenGLES",
+    "MobileCoreServices",
+    "MediaPlayer",
+    "CoreAudio",
+    "CoreMedia",
+    "CoreGraphics",
+    "AVFoundation",
+    "AudioToolbox"
+  ],
+  "libraries": [
+    "z",
+    "bz2"
+  ],
+  "dependencies": {
+    "RxSwift": [
+      "~> 4.3.1"
+    ],
+    "RxCocoa": [
+      "~> 4.3.1"
+    ],
+    "SnapKit": [
+      "~> 4.0.0"
+    ],
+    "Moya": [
+      "~> 11.0.0"
+    ],
+    "Moya/RxSwift": [
+      "~> 11.0"
+    ],
+    "Kingfisher": [
+      "~> 4.6.1"
+    ],
+    "HandyJSON": [
+
+    ],
+    "Base": [
+
+    ]
+  }
+}

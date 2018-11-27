@@ -1,0 +1,23 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'Search' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+  
+  # Pods for Search
+  
+  pod 'RxSwift', '~> 4.3.1'                       #响应式函数框架
+  pod 'RxCocoa', '~> 4.3.1'                       #响应式函数框架
+  pod 'SnapKit', '~> 4.0.0'                       #布局框架
+  pod 'Moya', '~> 11.0.0'                         #网络层
+  pod 'Moya/RxSwift', '~> 11.0'                   #网络层扩展
+  pod 'Kingfisher', '~> 4.6.1'                    #图片下载框架
+  pod 'SwiftSoup'                                 #HTML解析
+  pod 'HandyJSON'                                 #ORM框架
+  
+  pod 'Base', :git => 'https://github.com/dearmiku/MN_Live_Base.git'                                 #基础
+  
+  pod 'LivingRoom', :git => 'https://github.com/dearmiku/MN_Live_LiveRoom.git'                                 #直播间
+  
+end

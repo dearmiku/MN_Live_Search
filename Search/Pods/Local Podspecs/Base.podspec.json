@@ -1,0 +1,43 @@
+{
+  "name": "Base",
+  "summary": "斗鱼基础模块",
+  "version": "0.0.1",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "yangshangda": "372154465@qq.com"
+  },
+  "homepage": "https://github.com/dearmiku/MN_Live",
+  "source": {
+    "git": "",
+    "tag": "0.0.1"
+  },
+  "source_files": [
+    "source",
+    "Base/Base/source/**/*.*"
+  ],
+  "swift_version": "4.2",
+  "platforms": {
+    "ios": "8.0"
+  },
+  "frameworks": [
+    "Foundation",
+    "UIKit"
+  ],
+  "dependencies": {
+    "RxSwift": [
+      "~> 4.3.1"
+    ],
+    "RxCocoa": [
+      "~> 4.3.1"
+    ],
+    "SnapKit": [
+      "~> 4.0.0"
+    ],
+    "Kingfisher": [
+      "~> 4.6.1"
+    ]
+  }
+}

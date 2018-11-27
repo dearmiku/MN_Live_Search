@@ -1,0 +1,6 @@
+framework module LivingRoom {
+  umbrella header "LivingRoom-umbrella.h"
+
+  export *
+  module * { export * }
+}
